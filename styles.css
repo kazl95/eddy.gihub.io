@@ -1,0 +1,156 @@
+body, html {
+
+    background-color: #000000;
+    text-align: justify;
+    color: #aa883f;
+
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ main{
+    position: relative;
+    top: 150px;
+    bottom: 200px;
+    margin: 0 20px 50px;
+    padding-bottom: 40px;
+ }
+
+.navbar {
+    
+    border-bottom: 1px solid rgb(85, 81, 73);
+    /*box-shadow: rgba(255, 255, 255, 0.151) 0px 7px 29px 0px ; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 0 15px;
+    position: fixed;
+    
+    height: 110px; 
+    max-width: 100%;
+    z-index: 1;
+}
+
+.top-logo-container {
+    
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: -10px;
+    
+}
+
+.top-logo {
+    max-height: 90px;
+    
+    
+}
+
+.bottom-logos-container {
+    bottom: 40px;
+    display: flex;
+    max-height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.bottom-logo {
+    max-height: 90%;
+    height: auto;
+    max-width: 50%;
+    transition-duration: 1s;
+}
+
+.bottom-logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.bottom-logo:hover {
+    transform: scale(1.1);
+    
+}
+.left-logo {
+    margin-right: auto;
+    
+}
+
+.right-logo {
+    margin-left: auto;
+    max-height: 90%;
+   
+}
+p {
+    margin-top: 0;
+}
+
+.dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dropbtn {
+    background-color: inherit;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 50px;  
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #aa883f;
+
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.socials{
+    display: flex;
+    position: fixed;
+    justify-content: center;   
+    width: 100%; 
+    bottom: 10px;
+}
+
+.fa-brands {
+
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
