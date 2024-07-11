@@ -2,8 +2,7 @@ body, html {
 
     background-color: #000000;
     text-align: justify;
-    color: #aa883f;
-
+    color: #c0c0c0;
     font-family:  Arial, Helvetica, sans-serif;
     font-size: large;
     margin: 0;
@@ -21,10 +20,8 @@ body, html {
 
 .navbar {
     
-    border-bottom: 1px solid rgb(255, 255, 255);
-    box-shadow: rgba(255, 255, 255, 0.151) 0px 7px 29px 0px ; 
-    
-    
+   
+    border-bottom: 1px solid rgba(255, 255, 255, 0.468);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +29,7 @@ body, html {
     padding: 0 15px;
     position: fixed;
     
-    height: 110px; 
+    height: 134px; 
     max-width: 100%;
     z-index: 1;
 }
@@ -45,6 +42,7 @@ body, html {
     justify-content: center;
     width: 100%;
     top: -10px;
+    left: 16.5px;
     
 }
 
@@ -55,7 +53,7 @@ body, html {
 }
 
 .bottom-logos-container {
-    bottom: 15px;
+    bottom: 25px;
     display: flex;
     max-height: 80px;
     width: 100%;
@@ -115,7 +113,7 @@ p {
     display: none;
     position: absolute;
     background-color: #333;
-    min-width: 160px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     top: 50px;  
